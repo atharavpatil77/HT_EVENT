@@ -1,0 +1,127 @@
+/ht-brand-website/ht-brand-website/src/styles/components.css
+
+/* Components Styles */
+
+/* Header Styles */
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.header .nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+/* Navigation Styles */
+.navigation {
+    background-color: #007bff;
+    padding: 10px;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Testimonial Styles */
+.testimonial {
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial .client-name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Services Grid Styles */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.service-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+}
+
+.service-card h3 {
+    margin: 10px 0;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
